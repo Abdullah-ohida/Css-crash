@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    max-width: 1200px;
+    font-weight: 100;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/line.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    color: white;
+}
+
+h1{
+    font-size: 30px; 
+    padding-top: 60px;
+}
+
+h2{
+    font-size: 27px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4{
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    max-width: 700px;
+    color: white;
+}
+a:link{
+    color: rgb(157, 206, 151);
+}
+
+a:visited{
+    color: cyan;
+}
+
+a:hover{
+    color: rgb(0, 92, 128);
+}
+
+a:active{
+    color: rgb(255, 94, 0);
+}
+
+figure{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+caption{
+    font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+th{
+    text-align: left;
+    padding-right: 30px;
+    color: white;
+}
+
+td{
+    padding-right: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+input{
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    margin: 1rem;
+}
+
+textarea{
+    border: none;
+    background-color: rgb(247, 247, 247);
+    color: white;
+}
+
+fieldset{
+    width: 400px;
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    font-family: monospace;
+    background-color: cadetblue;
+    color: rgb(247, 247, 247);
+}
+
+button:hover{
+    background: cyan;
+    color: #222;
+}
+
+main{
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 60px;
+    width: 700px;
+}
